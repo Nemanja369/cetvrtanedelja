@@ -1,0 +1,22 @@
+#domacin{
+    height: 300px;
+    position: relative;
+}
+#gost{
+    height: 300px;
+}
+.divOkvir {
+    display: inline-block;
+    width: 100px;
+    height: 250;
+    float: left;
+
+}
+
+.tekst{
+    position: relative;
+    
+}
+.hidden{
+    display: none;
+}

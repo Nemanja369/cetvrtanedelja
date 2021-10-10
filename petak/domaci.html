@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dom.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="unos">
+        <input type="text" id="ime" placeholder="ime" style="display: block;">
+        <input type="text" id="prezime" placeholder="prezime" style="display: block;">
+        <input type="text" id="adresa" placeholder="adresa">
+        <Button id="dugme">UNESI</Button>
+       
+    </div>
+
+
+    <div>
+        <table id="tabela1">
+            <tr>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Adresa</th>
+            </tr>
+           <tr>
+                <td>Marko</td>
+                <td>Markovic</td>
+                <td>adr</td>
+           </tr>
+           
+        </table>
+        <div>
+            <p>Prikazi kalkulator</p>
+            <input type="checkbox" id="cek">
+        </div>
+        
+        <div id="kalkulator" class="hidden">
+            <input type="number" id="prviBroj" placeholder="prvi broj">
+            <input type="number" id="drugiBroj" placeholder="drugi broj">
+            <button id="zbir">SABERI</button>
+        </div>
+    </div>
+    <script src="domaci.js"></script>
+</body>
+</html>

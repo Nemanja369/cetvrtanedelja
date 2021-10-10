@@ -1,0 +1,37 @@
+.styledLi{
+    background-color: coral;
+    margin: 10px;
+}
+.styledLi3{
+    border: rgb(94, 56, 9) 2px solid;
+}
+
+.styledLi3:hover{
+    transform: rotate3d(1, 1, 1, 16deg);
+}
+
+.opis{
+    width: 50px;
+    height: 20px;
+}
+.prosiri{
+
+    overflow: visible;
+}
+.skupi{
+
+    overflow: hidden;
+}
+
+
+#div1{
+    color: aquamarine;
+    
+}
+
+.visble{
+    display: block;
+}
+.hidden{
+    display: none;
+}

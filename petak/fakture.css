@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(238, 242, 245);
+    font-family: "Trebuchet MS";
+    text-align: center;
+  }
+h1{
+    text-align:center;
+  }
+section{
+    text-align:center;
+    margin: 0 auto;
+  }
+  .input-container input{
+    display: block;
+    margin:10px auto;
+    width: 250px;
+  }
+  .input-container input:hover{
+    border: 2px solid rgb(0, 238, 255);
+  }
+  .input-container div *{ 
+      height: 30px;
+      line-height: 30px;
+  }
+  #btn-add{
+    width:250px;
+    height: 50px;
+}
+  #btn-add:hover{
+      border: 0px solid;
+      background-color:rgb(130, 132, 133);
+  }
+  .input-container{
+    width: 700px;
+  }
+  #item-list{
+    width: 600px;
+    min-height:400px;
+    border: 2px solid rgb(0, 238, 255);
+    border-radius: 25px;
+  }
+.item-container{
+    width:100%;
+    text-align: center;
+}
+.item-container:nth-child(odd){
+    background-color:rgb(210, 210, 210,0.4);
+}
+.item-container div{
+    text-align: start;
+    display: inline-block;
+    height: 100%;
+}
+.item-info{
+    width: 450px;
+}
+.item-actions{
+    width: 75px;
+    padding: 10px 30px;
+}
+.item-info div{
+    display: block;
+}
